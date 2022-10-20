@@ -18,3 +18,15 @@
 (deftest p2-test
   (testing "predict"
   (is (= (co2-estimate 2050) 470))))
+
+(deftest p3-test
+  (testing "truefalse")
+  (is (= (if 0 "True" "False") "True")))
+
+(deftest p4-test
+  (testing "truefalse")
+  (true? 1))
+
+(deftest p4-test
+  (testing "truefalse")
+  (false? nil))
