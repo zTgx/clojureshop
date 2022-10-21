@@ -1,5 +1,4 @@
-(ns repl.core
-)
+(ns repl.core)
 
 (defn calc [x]
   (println (* x x)))

@@ -29,4 +29,12 @@ not evaluate the rest of the expression when that is the case. When all the valu
 passed to and are truthy, and will return the last value.
 * or works in a similar fashion: it will return the first truthy value that it comes across and it will not evaluate the rest of the expression when that is the case.
 * = function can also take one argument, in which case it will always return true.
+
+### Date Types
+* first returns the first element of a collection.
+* `(last "a collection of 1 character strings")`
+* ```clojure (type 10000000000000000000) clojure.lang.BigInt```
+* Math/PI - random - sqrt - round
+* `(int \a)` -> convert a character to a number.
+* `(first (char-array "abcd"))` -> convert string to char
 * 
